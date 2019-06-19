@@ -9,18 +9,21 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir content --extensions \".ts,.tsx\" --source-maps inline",
     "prettier-check": "prettier --check src/*.ts",
-    "prettier-fix": "prettier --write src/*.ts"
+    "prettier-fix": "prettier --write src/*.ts",
+    "lint": "tslint src/*.ts"
   },
   "devDependencies": {
-    "typescript": "3.5.2",
-    "tslint": "5.17.0",
-    "prettier": "1.18.2",
-    "@babel/core": "7.4.5",
     "@babel/cli": "7.4.4",
+    "@babel/core": "7.4.5",
     "@babel/plugin-proposal-class-properties": "7.4.4",
     "@babel/plugin-proposal-object-rest-spread": "7.4.4",
     "@babel/preset-env": "7.4.5",
-    "@babel/preset-typescript": "7.3.3"
+    "@babel/preset-typescript": "7.3.3",
+    "husky": "^2.4.1",
+    "prettier": "1.18.2",
+    "pretty-quick": "^1.11.1",
+    "tslint": "5.17.0",
+    "typescript": "3.5.2"
   },
   "author": "Michael J. Currie",
   "private": true,
@@ -34,5 +37,10 @@
     "Firefox 60",
     "ChromeAndroid 70",
     "FirefoxAndroid 60"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && yarn lint && yarn build:js"
+    }
+  }
 }
