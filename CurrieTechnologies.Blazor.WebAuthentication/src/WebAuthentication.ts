@@ -9,6 +9,3 @@ window.CurrieTechnologies = window.CurrieTechnologies || {};
 window.CurrieTechnologies.Blazor = window.CurrieTechnologies.Blazor || {};
 window.CurrieTechnologies.Blazor.WebAuthentication =
   window.CurrieTechnologies.Blazor.WebAuthentication || {};
-
-window.CurrieTechnologies.Blazor.WebAuthentication =
-  window.CurrieTechnologies.Blazor.WebAuthentication || {};
