@@ -1,0 +1,38 @@
+{
+  "name": "currietechnologies-blazorwebauthentication",
+  "version": "0.1.0-preview",
+  "description": "A Blazor component library for interacting with the browser Web Authentication API",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "npm run build:types && npm run build:js",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:js": "babel src --out-dir content --extensions \".ts,.tsx\" --source-maps inline",
+    "prettier-check": "prettier --check src/*.ts",
+    "prettier-fix": "prettier --write src/*.ts"
+  },
+  "devDependencies": {
+    "typescript": "3.5.2",
+    "tslint": "5.17.0",
+    "prettier": "1.18.2",
+    "@babel/core": "7.4.5",
+    "@babel/cli": "7.4.4",
+    "@babel/plugin-proposal-class-properties": "7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.4",
+    "@babel/preset-env": "7.4.5",
+    "@babel/preset-typescript": "7.3.3"
+  },
+  "author": "Michael J. Currie",
+  "private": true,
+  "eslintIgnore": [
+    "*.js",
+    "*.ts"
+  ],
+  "browserslist": [
+    "Chrome 67",
+    "Edge 18",
+    "Firefox 60",
+    "ChromeAndroid 70",
+    "FirefoxAndroid 60"
+  ]
+}

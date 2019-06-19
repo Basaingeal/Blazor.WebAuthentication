@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "target": "esnext",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "outDir": "./content/"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
