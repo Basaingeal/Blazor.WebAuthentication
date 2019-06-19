@@ -40,7 +40,7 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && yarn lint && yarn build:js"
+      "pre-commit": "pretty-quick --staged && yarn lint"
     }
   }
 }
