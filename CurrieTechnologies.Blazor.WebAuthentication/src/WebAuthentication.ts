@@ -213,5 +213,3 @@ window.CurrieTechnologies.Blazor.WebAuthentication.PublicKeyCredential.GetClient
   }
   return credential.getClientExtensionResults();
 };
-
-window.atob("");
