@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CurrieTechnologies.Blazor.WebAuthentication
 {
-    public enum UserVerificationType
+    public enum UserVerificationRequirement
     {
         /// <summary>
         /// User verification is required, the operation will fail if the response does not have the UV flag (as part of the AuthenticatorData property of AuthenticatorAttestationResponse.AttestationObject)

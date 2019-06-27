@@ -8,10 +8,10 @@ namespace CurrieTechnologies.Blazor.WebAuthentication
 {
     /// <summary>
     /// The PublicKeyCredential interface provides information about a public key / private key pair, which is a credential for logging in to a service using an un-phishable and data-breach resistant asymmetric key pair instead of a password.
-    /// It inherits from <see cref="Credential"/>, and was created by the Web Authentication API extension to the Credential Management API.
-    /// Other interfaces that inherit from <see cref="Credential"/> are PasswordCredential and FederatedCredential.
+    /// It inherits from <see cref="CredentialBase"/>, and was created by the Web Authentication API extension to the Credential Management API.
+    /// Other interfaces that inherit from <see cref="CredentialBase"/> are PasswordCredential and FederatedCredential.
     /// </summary>
-    public class PublicKeyCredential : Credential
+    public class PublicKeyCredential : CredentialBase
     {
         /// <summary>
         /// Inherited from Credential and overridden to be the base64url encoding of PublicKeyCredential.RawId.

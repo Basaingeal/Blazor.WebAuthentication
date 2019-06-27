@@ -1,12 +1,12 @@
 ﻿namespace CurrieTechnologies.Blazor.WebAuthentication
 {
-    public partial class CredentialDescriptor
+    public class PublicKeyCredentialDescriptor
     {
         /// <summary>
         /// A string describing type of public-key credential to be created.
         /// As of this writing (June 2019), only "public-key" may be used.
         /// </summary>
-        public CredentialType Type { get; set; }
+        public PublicKeyCredentialType Type { get; set; }
 
         /// <summary>
         /// A byte[] matching an existing public key credential identifier (PublicKeyCredential.RawId).
@@ -17,6 +17,6 @@
         /// <summary>
         /// An Array of strings describing the possible transports between the client and the authenticator.
         /// </summary>
-        public CredentialTransportType[]? Transports { get; set; }
+        public AuthenticatorTransport[]? Transports { get; set; }
     }
 }

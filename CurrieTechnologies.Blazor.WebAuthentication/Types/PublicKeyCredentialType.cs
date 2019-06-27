@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 namespace CurrieTechnologies.Blazor.WebAuthentication
 {
-    public enum CredentialType
+    public enum PublicKeyCredentialType
     {
-        PublicKey,
-        Password,
-        Federated
+        PublicKey
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CurrieTechnologies.Blazor.WebAuthentication
 {
-    public enum CredentialTransportType
+    public enum AuthenticatorTransport
     {
         /// <summary>
         /// The authenticator can be contacted via a removable USB link.

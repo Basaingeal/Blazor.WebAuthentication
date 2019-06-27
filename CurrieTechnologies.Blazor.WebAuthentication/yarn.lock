@@ -683,10 +683,10 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
   integrity sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==
 
-"@types/webappsec-credential-management@^0.3.10":
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/@types/webappsec-credential-management/-/webappsec-credential-management-0.3.10.tgz#bb05afd0245382809ae291da155f46f83128f59e"
-  integrity sha512-Zs6XsEw15jqbkHiVMW3YSUq2KUpkg/lojxbcdNQAevbHwI1eQBSbw3rxiVEpwFmRsY/9YR34hPLUBU6jEB1fnA==
+"@types/webappsec-credential-management@^0.3.11":
+  version "0.3.11"
+  resolved "https://registry.yarnpkg.com/@types/webappsec-credential-management/-/webappsec-credential-management-0.3.11.tgz#e8ddf8f8fb8fb1346128b97ddf95c371a92bd1bd"
+  integrity sha512-VsN40aBi3qKeCIxVDsoUaYkdzNejeCA02+u7swBQKMbshcFcSgmP97wqfrtGtC9mxP7GI1oojrZciGvV2i6Xvw==
 
 abbrev@1:
   version "1.1.1"

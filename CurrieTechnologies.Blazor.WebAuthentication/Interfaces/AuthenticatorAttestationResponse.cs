@@ -21,7 +21,7 @@ namespace CurrieTechnologies.Blazor.WebAuthentication
         /// Returns an Array of strings describing which transport methods (e.g. "usb", "nfc") are believed to be supported with the authenticator. The array may be empty if the information is not available.
         /// </summary>
         /// <returns></returns>
-        public CredentialTransportType[] GetTransports()
+        public AuthenticatorTransport[] GetTransports()
         {
             throw new NotImplementedException();
         }
